@@ -1,11 +1,18 @@
-
 *{
     border: 1px solid black;
 }
 
 
-.for-back{
-    display: grid ;
-    grid-template-columns:repeat(2, 1fr) ;
+.for-back {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
+}
+
+.for-mcard {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    border: 1px solid black;
+    width: 80%;
+    margin: auto;
 }
